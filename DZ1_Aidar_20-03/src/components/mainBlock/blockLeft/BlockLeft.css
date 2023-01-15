@@ -1,0 +1,46 @@
+
+
+.card {
+    width: 520px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.card-img {
+    border: 1px solid black;
+    margin-right: 15px;
+    height: 190px;
+    width: 350px;
+    align-items: center;
+    text-align: center;
+}
+
+.card-img img {
+    margin-top: 50px;
+}
+
+
+.card-inner {
+    display: block;
+}
+
+.card:last-child {
+    margin-bottom: 0px;
+}
+
+.card h3 {
+    font-size: 23px;
+}
+
+.card p {
+    color: gray;
+    margin-bottom: 18px;
+
+}
+
+.card span {
+    font-weight: 700;
+    font-size: 30px;
+    display: block;
+}
